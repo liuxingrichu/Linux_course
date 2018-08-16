@@ -1,9 +1,9 @@
 ### 目录 ###
 1. Linux概述
 	1. [Linux系统介绍](chapter_01/day01.md)
-	2. [Linux应用领域]()
-	3. [Linux学习资源]()
-	4. [Linux学习习惯]()
+	2. [Linux发展前景](chapter_01/day02.md)
+	3. [Linux学习资源](chapter_01/day02.md)
+	4. [Linux学习习惯](chapter_01/day02.md)
 2. 系统安装与基本配置
 3. 系统用户接口
 4. 程序编辑器
