@@ -6,6 +6,11 @@
 	4. [Linux学习习惯](chapter_01/day02.md)
 	5. [练习](chapter_01/day03.md)
 2. 系统安装与基本配置
+	1. [虚拟化、虚拟机软件介绍](chapter_02/day01.md)
+	2. [硬盘、分区、硬盘分区](chapter_02/day02.md)
+	3. [Linux系统启动流程1](chapter_02/day03.md)
+	4. [Linux系统启动流程2](chapter_02/day04.md)
+	5. [练习](chapter_02/day05.md)
 3. 系统用户接口
 4. 程序编辑器
 5. 用户管理
