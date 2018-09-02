@@ -11,8 +11,12 @@
 	3. [Linux系统启动流程1](chapter_02/day03.md)
 	4. [Linux系统启动流程2](chapter_02/day04.md)
 	5. [练习](chapter_02/day05.md)
-3. 系统用户接口
-4. 程序编辑器
+	6. [文件系统](chapter_02/day06.md)
+3. 系统用户接口和程序编辑器
+	1. 系统用户接口
+		1. 
+	2. 程序编辑器
+		1. [配置vim编辑器/vim常用命令](chapter_03/day05.md)
 5. 用户管理
 6. 文件系统
 7. 三剑客
@@ -22,6 +26,9 @@
 11. 进程管理
 12. 磁盘管理
 13. 软件包管理
-	1. [镜像挂卸载](chapter_06/day01.md)
+	1. [镜像挂卸载、rpm安装、配置yum本地源](chapter_06/day01.md)
+	2. [程序编译与运行](chapter_06/day02.md)
+	3. [宿主机和客户端文件输出](chapter_06/day03.md)
 14. shell编程
+	1. [脚本调试](chapter_08/day08.md)
 15. 服务器配置
