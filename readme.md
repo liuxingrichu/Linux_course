@@ -32,3 +32,9 @@
 14. shell编程
 	1. [脚本调试](chapter_08/day08.md)
 15. 服务器配置
+	1. [nginx服务器](chapter_09/day01.md)
+	2. [apache服务器](chapter_09/day02.md)
+	3. [DNS服务器](chapter_09/day03.md)
+	4. [FTP服务器](chapter_09/day04.md)
+	5. [docker]()
+	6. [openstack]()
