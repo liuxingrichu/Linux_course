@@ -14,7 +14,17 @@
 	6. [文件系统](chapter_02/day06.md)
 3. 系统用户接口和程序编辑器
 	1. 系统用户接口
-		1. 
+		1. [控制台和终端、shell](chapter_03/day01.md)
+		2. [修改系统默认运行级别](chapter_03/day01.md)
+		3. [配置用户开启自启动](chapter_03/day01.md)
+		4. [根目录与家目录的区别](chapter_03/day01.md)
+		5. [命令全称获取方式](chapter_03/day02.md)
+		6. [常用命令清单1](chapter_03/day02.md)
+		7. [命令缩写参考清单](chapter_03/day02.md)
+		8. [通配符]()
+		9. [重定向]()
+		10. [管道]()
+		11. [KDE和GNOME桌面环境]()
 	2. 程序编辑器
 		1. [配置vim编辑器/vim常用命令](chapter_03/day05.md)
 5. 用户管理

@@ -24,6 +24,7 @@
 2. 官方网站
 	1. centos官网 https://www.centos.org
 	2. Redhat官网 https://www.redhat.com/en
+	3. Ubuntu官网 https://www.ubuntu.com/download
 3. 练习平台
 	1. https://www.tutorialspoint.com/index.htm
 	2. 点CODING GROUND
