@@ -1,3 +1,9 @@
+vi = VIsual = Very Inconvenient 
+pty = pseudo tty 
+tty = TeleTypewriter
+vim = Vi IMproved
+
+
 
   1. The cursor is moved using either the arrow keys or the hjkl keys.
          h (left)       j (down)       k (up)       l (right)

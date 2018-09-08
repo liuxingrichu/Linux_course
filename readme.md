@@ -21,10 +21,10 @@
 		5. [命令全称获取方式](chapter_03/day02.md)
 		6. [常用命令清单1](chapter_03/day02.md)
 		7. [命令缩写参考清单](chapter_03/day02.md)
-		8. [通配符]()
-		9. [重定向]()
-		10. [管道]()
-		11. [KDE和GNOME桌面环境]()
+		8. [通配符](chapter_03/day03.md)
+		9. [重定向](chapter_03/day03.md)
+		10. [管道](chapter_03/day03.md)
+		11. [KDE和GNOME桌面环境](chapter_03/day03.md)
 	2. 程序编辑器
 		1. [配置vim编辑器/vim常用命令](chapter_03/day05.md)
 5. 用户管理
