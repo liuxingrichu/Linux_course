@@ -12,6 +12,9 @@
 	4. [Linux系统启动流程2](chapter_02/day04.md)
 	5. [练习](chapter_02/day05.md)
 	6. [文件系统](chapter_02/day06.md)
+	7. [独立思考时间颗粒度](day07.md)
+	8. [询问问题参考模板](day07.md)
+	9. [VMware虚拟机加载镜像，无法正常查看和操作系统](day07.md)
 3. 系统用户接口和程序编辑器
 	1. 系统用户接口
 		1. [控制台和终端、shell](chapter_03/day01.md)

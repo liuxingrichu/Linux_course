@@ -50,7 +50,7 @@
 3. 管道符号：|
 
 
-### KDE与GNOME ###
+### KDE（K Desktop Environment）与GNOME（The GNU Network Object Model Environment） ###
 KDE和GNOME都是基于X Window的图形窗口管理系统。
 
 X Window系统并不是一个软件，而是一个协议，这个协议定义一个系统所必须具备的功能。任何系统只要满足此协议的规范要求，就成为X。
