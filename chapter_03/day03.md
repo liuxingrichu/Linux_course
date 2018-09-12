@@ -49,7 +49,6 @@
 2. 管道就是将一个命令的输出作为另一个命令的输入。
 3. 管道符号：|
 
-
 ### KDE（K Desktop Environment）与GNOME（The GNU Network Object Model Environment） ###
 KDE和GNOME都是基于X Window的图形窗口管理系统。
 

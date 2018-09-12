@@ -29,8 +29,10 @@
 		9. [重定向](chapter_03/day03.md)
 		10. [管道](chapter_03/day03.md)
 		11. [KDE和GNOME桌面环境](chapter_03/day03.md)
+		12. [练习](day04.md)
 	2. 程序编辑器
-		1. [配置vim编辑器/vim常用命令](chapter_03/day05.md)
+		1. [配置vim编辑器](chapter_03/day05.md)
+		2. [vim编辑器](chapter_03/day05.md)
 5. 用户管理
 6. 文件系统
 7. 三剑客

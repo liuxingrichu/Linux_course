@@ -1,62 +1,33 @@
-vi = VIsual = Very Inconvenient 
-pty = pseudo tty 
-tty = TeleTypewriter
-vim = Vi IMproved
+## 练习 ##
+### 填空 ###
+1. 标准输入设备（默认输入设备）：键盘
+2. 标准输出设备（默认输出设备）：显示器
+3. 文件标识符
+	1. 标准输入：0
+	2. 标准输出：1
+	3. 标准错误输出：2
+4. Linux的图形化系统是X Window系统。
+5. 在Linux下一切皆文件。
+6. 在Linux系统中有各种Shell，采用bash作为默认Shell。
+7. Shell：命令行解释器，是用户和Linux内核之间的接口程序，是操作系统的外壳，是一个用C语言写的程序，是用户与Linux内核沟通时的媒介。
+8. ls：查看当前目录下内容
+9. ll：查看当前目录下内容的详细信息
+10. cat：查看文件内容
+11. cd：改变目录
+12. wc: 统计文件包含的行数、单词数和字符数
+13. man：获取命令相关详细信息
+14. shutdown：关机或重启
+15. history：查询用户操作历史
+16. more：以一页一页的显示文件内容，方便使用者逐页阅读
+17. less：主要用来浏览文件内容，less命令可往回卷动浏览以看过的部分
+
+### 简答 ###
+1. 请阐述Linux根目录与家目录的区别。
+	1. ~ 代表是home目录，也就是家目录， / 代表的是根目录
+	2. 用户登录后在家目录 ，可用pwd命令查看，普通用户为 /home/用户名，root用户为/root
+	3. 根目录是在最顶端的目录（因为已经不能cd ..到上一级目录了 ）
+	4. 根目录是所有用户的都可以操作的，家目录用户才有权限操作（管理员可以分配权限）
+2. 请阐述绝对路径和相对路径的区别。
+	1. 绝对路径是从根目录开始的。
 
 
-
-  1. The cursor is moved using either the arrow keys or the hjkl keys.
-         h (left)       j (down)       k (up)       l (right)
-
-  2. To start Vim from the shell prompt type:  vim FILENAME <ENTER>
-
-  3. To exit Vim type:     <ESC>   :q!   <ENTER>  to trash all changes.
-             OR type:      <ESC>   :wq   <ENTER>  to save the changes.
-
-  4. To delete the character at the cursor type:  x
-
-  5. To insert or append text type:
-         i   type inserted text   <ESC>         insert before the cursor
-         A   type appended text   <ESC>         append after the line
-
-NOTE: Pressing <ESC> will place you in Normal mode or will cancel
-      an unwanted and partially completed command.
-
- 1. To delete from the cursor up to the next word type:    dw
-  2. To delete from the cursor to the end of a line type:    d$
-  3. To delete a whole line type:    dd
-
-  4. To repeat a motion prepend it with a number:   2w
-  5. The format for a change command is:
-               operator   [number]   motion
-     where:
-       operator - is what to do, such as  d  for delete
-       [number] - is an optional count to repeat the motion
-       motion   - moves over the text to operate on, such as  w (word),
-                  $ (to the end of line), etc.
-
-  6. To move to the start of the line use a zero:  0
-
-  7. To undo previous actions, type:           u  (lowercase u)
-     To undo all the changes on a line, type:  U  (capital U)
-     To undo the undo's, type:                 CTRL-R
-
-
- 1. CTRL-G  displays your location in the file and the file status.
-             G  moves to the end of the file.
-     number  G  moves to that line number.
-            gg  moves to the first line.
-
-  2. Typing  /  followed by a phrase searches FORWARD for the phrase.
-     Typing  ?  followed by a phrase searches BACKWARD for the phrase.
-     After a search type  n  to find the next occurrence in the same direction
-     or  N  to search in the opposite direction.
-     CTRL-O takes you back to older positions, CTRL-I to newer positions.
-
-  3. Typing  %  while the cursor is on a (,),[,],{, or } goes to its match.
-
-  4. To substitute new for the first old in a line type    :s/old/new
-     To substitute new for all 'old's on a line type       :s/old/new/g
-     To substitute phrases between two line #'s type       :#,#s/old/new/g
-     To substitute all occurrences in the file type        :%s/old/new/g
-     To ask for confirmation each time add 'c'             :%s/old/new/gc
