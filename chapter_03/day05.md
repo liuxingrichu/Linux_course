@@ -4,7 +4,7 @@
 		# vim /etc/vimrc
 		
 		在文件最后添加，以下语句
-			set nu         // 这是设置显示行号
+			set nu         // 设置显示行号
 		   	set showmode   //设置在命令行界面最下面显示当前模式等。
 		   	set ruler     // 在右下角显示光标所在的行数等信息
 		   	set autoindent   // 设置每次单击Enter键后，光标移动到下一行时与上一行的起始字符对齐
@@ -12,6 +12,22 @@
 
 2. 当前用户生效
 	- 在用户登录的 ~ 目录下创建一个 .vimrc文件，在其中进行自己习惯的编程环境的设置，这样当别的用户使用实并不互相影响。
+
+
+### source /etc/vimrc报错 ###
+
+编辑完vimrc之后，使用source /etc/vimrc之后报错：
+
+	$ source /etc/vimrc
+	bash: /etc/vimrc: line 15: syntax error near unexpected token `"autocmd"'
+	bash: /etc/vimrc: line 15: `if has("autocmd")'
+
+主要是因为：
+vimrc是vim起动时解释的，而不是由shell来解释。用shell来source它肯定不行
+
+解决办法：其实根本不用source等任何操作，使用vi时候自动读取配置，如果还是没有生效，那么久拷贝一个vimrc到你的目录（HOME或者WORK目录即可）下，命名为 .vimrc即可 
+
+
 
 ### vim编辑器 ###
 1. 显示行号
