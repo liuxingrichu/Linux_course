@@ -33,6 +33,7 @@
 	2. 程序编辑器
 		1. [配置vim编辑器](chapter_03/day05.md)
 		2. [vim编辑器](chapter_03/day05.md)
+		3. [vim编辑器之多文件](chapter_03/day07.md)
 5. 用户管理
 6. 文件系统
 7. 三剑客
