@@ -38,7 +38,9 @@
 		4. [source /etc/vimrc报错](chapter_03/day05.md)
 4. 系统管理
 	1. 用户管理
-		1. [用户管理]()
+		1. [用户管理](chapter_04/day01.md)
+		2. [head命令](chapter_04/day01.md)
+		3. [tail命令](chapter_04/day01.md)
 		2. [组管理]()
 		3. [身份切换]()
 		3. [授权操作]()
