@@ -57,3 +57,16 @@
 	
 	综上，电梯一共运输5趟，我们已经知道电梯每趟的承重能力大小是4K，故5趟的总承重能力是4K*5=20K。我们可以把载重能力看成一种资源，而total的意思是：列表中所有文件的磁盘空间占用总和，也就是资源占用总和，它的统计单位是kb。 
 	因而，这也就是total后的20（Kb）的来历。
+
+### 权限后面的点 ###
+	[root@localhost home]# ls -alh
+	total 0
+	drwxr-xr-x.  7 root   root    73 Sep 18 20:58 .
+	dr-xr-xr-x. 17 root   root   224 Sep  2 19:16 ..
+	drwx------.  5 admin  admin  267 Sep 14 20:03 admin
+
+	开启了SELinux功能的Linux系统才会有这个点。
+	那个点表示文件带有“SELinux的安全上下文”。
+	CentOS7默认是开启SELinux的，所以会有这个点，
+	如果关闭SELinux，然后再创建文件，新创建的文件就不会再有这个点了.
+

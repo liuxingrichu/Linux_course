@@ -41,9 +41,10 @@
 		1. [用户管理](chapter_04/day01.md)
 		2. [head命令](chapter_04/day01.md)
 		3. [tail命令](chapter_04/day01.md)
-		2. [组管理]()
-		3. [身份切换]()
-		3. [授权操作]()
+		4. [创建用户的家目录内容来源](chapter_04/day01.md)
+		2. [组管理](chapter_04/day02.md)
+		3. [身份切换](chapter_04/day03.md)
+		3. [授权操作](chapter_04/day04.md)
 	2. 进程管理
 	3. 日志管理
 6. 文件系统

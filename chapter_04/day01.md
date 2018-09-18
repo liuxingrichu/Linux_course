@@ -96,18 +96,20 @@ ls -ln可以查看UID和GID信息。
 
 
 4. 查
-	1. 查询自己 $ id
-	2. 查询其他 $ id username
+	1. id 显示用户信息
+		1.  $ id 查询当前用户信息
+		2.  $ id username 查询其他用户信息
 
 			uid=user id    用户id
 			gid=group id   主属组的组id
 			groups= 所属组群gid
+	2. groups  查询用户所属的组
+		1. $groups 查询当前用户组信息
+		2. $groups username 查询其他用户组信息
 	1. who：查询当前在线的用户
 	2. w ：查询当前在线的用户的详细信息；
-	3. id ： 显示用户id信息；
-	4. whoami ：显示当前终端上的用户名；
-	5. groups：查询用户所属的组；
-	6. lastlog：查询每个账户的最近登录时间。
+	3. whoami ：显示当前终端上的用户名；
+	4. lastlog：查询每个账户的最近登录时间。
 5. 其他
 	1. logout
 		1. 功能：用于注销当前用户。
@@ -141,3 +143,6 @@ ls -ln可以查看UID和GID信息。
 		head -n -5  /test.txt   输出文件除了最后5行的全部内容
 		head -c 20  /test.txt   显示文件前20个字节 
 
+### 创建用户的家目录内容来源 ###
+1. 系统在创建用户的时候，会拷贝/etc/skel下的内容。
+2. 可以在这个目录下，加入一个测试文件，进行测试。测试完成后，建议删除测试文件。
