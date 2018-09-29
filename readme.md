@@ -49,6 +49,10 @@
 		4. [visudo命令，提示busy](chapter_04/day05.md)
 		5. [组管理之课堂练习](chapter_04/day06.md)
 	2. 进程管理
+		1. [程序与进程](chapter_04/day07.md)
+		2. [特殊进程](chapter_04/day08.md)
+		3. [监视进程之ps和pstree](chapter_04/day09.md)
+		4. [监视进程之top](chapter_04/day10.md)
 	3. 日志管理
 6. 文件系统
 7. 三剑客
