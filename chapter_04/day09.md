@@ -24,6 +24,9 @@ top命令提供了实时的系统状态监控，可以按照CPU使用、内存�
 
 				进程是按照进程组管理的，进程组又属于session。关系如下：
 				每个session拥有一个或者多个进程组，每个进程组拥有一个或多个进程。第一个属于某个session的进程id就是这个session的 leader， session id就用它的进程id。
+				Session ID (SID)
+				
+				This is just the PID of the session leader. If PID == SID, then this process is a session leader.
 
 			显示目前属于自己这次登入的 PID 与相关信息
 			$ ps -l
