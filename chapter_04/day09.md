@@ -28,7 +28,7 @@ top命令提供了实时的系统状态监控，可以按照CPU使用、内存�
 				
 				This is just the PID of the session leader. If PID == SID, then this process is a session leader.
 
-			显示目前属于自己这次登入的 PID 与相关信息
+			仅查看自己的bash相关进程
 			$ ps -l
 		
 				F 代表这个程序的旗标 (flag)， 4 代表使用者为 superuser；
@@ -47,7 +47,7 @@ top命令提供了实时的系统状态监控，可以按照CPU使用、内存�
 				CMD 所下达的指令名称
 
 
-			列出目前所有的正在内存当中的程序
+			查看系统所有进程
 			$ ps aux 
 			
 				USER：该进程属于那个使用者账号。
@@ -84,6 +84,10 @@ top命令提供了实时的系统状态监控，可以按照CPU使用、内存�
 			    s    包含子进程
 			    +    位于后台的进程组；
 			    l    多线程，克隆线程  multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
+
+			通常，造成僵尸进程的成因是因为进程应该已执行完毕，或者是因故应该要终止了，但是该进程的父进程却无法完成将该进程结束掉，而造成那个进程一直存在内存当中。
+
+			若发现系统中存在很多僵尸进程时，要找到该进程的父进程，然后好好跟踪，好好进行主机的环境优化。
 
 			ps aux 是用BSD的格式来显示进程
 			显示的项目有：USER , PID , %CPU , %MEM , VSZ , RSS , TTY , STAT , START , TIME , COMMAND

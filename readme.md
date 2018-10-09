@@ -54,6 +54,12 @@
 		3. [监视进程之ps和pstree](chapter_04/day09.md)
 		4. [监视进程之top](chapter_04/day10.md)
 		5. [进程管理（上）之练习题](chapter_04/day11.md)
+		6. [搜索进程](chapter_04/day12.md)
+		7. [控制进程](chapter_04/day12.md)
+		8. [进程优先级](chapter_04/day13.md)
+		9. [前后台进程](chapter_04/day14.md)
+		10. [进程管理（中）之练习](chapter_04/day15.md)
+		11. []()
 	3. 日志管理
 6. 文件系统
 7. 三剑客

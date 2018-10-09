@@ -33,15 +33,24 @@
 	3. 标准错误输出：2
 5. I/O重定向符号
 	1. 标准输出覆盖重定向（先清空，再输入）：>
-		1. 例如：$ ll > info.txt
+		
+			例如：
+				$ ll > info.txt
 	2. 标准输出追加重定向：>>
-		1. 例如：$ ll >> info.txt 
-		2. 例如：$ llh >>in.txt 2>>err.txt
+
+			例如：
+				$ ll >> info.txt 
+				$ llh >>in.txt 2>>err.txt
 	3. 标识输出重定向：>&
-		1. 例如：$ start > info.txt 2>&1
-		2. 例如：$ llh &>> djdj.txt
+
+			例如：
+				$ start > info.txt 2>&1
+				$ llh &>> djdj.txt
+				# tailf /var/log/messages >> msg.log 2>&1 &
 	4. 标准输入重定向：<
-		1. 例如：$ cat < info.txt
+			
+			例如：
+				$ cat < info.txt
 		
 
 ### 管道 ###

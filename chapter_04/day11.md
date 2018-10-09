@@ -18,9 +18,9 @@
 			ps -e > ps.txt
 			vim ps.txt
 		
-		2. 查看当前系统所有进程的uid、pid、stat、pri,以uid排序 。
-		
-			ps -eo uid,pid,stat,pri --sort uid
+		2. 查看系统所有进程的user、uid、gid、pid、ppid、ni、cmd,以uid排序。
+
+			ps -eo user,uid,gid,pid,ppid,ni,cmd --sort uid
 		3. 动态显示进程信息。
 		
 			top
