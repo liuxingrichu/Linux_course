@@ -1,5 +1,5 @@
 ### 例行任务管理之at、batch ###
-0. 确定atd是否正常运行
+0. 确定atd服务是否正常运行
 	1. yum install at -y
 	2. service atd status
 	3. service atd start

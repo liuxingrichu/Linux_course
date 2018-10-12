@@ -60,7 +60,9 @@
 		9. [前后台进程](chapter_04/day14.md)
 		10. [进程管理（中）之练习](chapter_04/day15.md)
 		11. [例行任务管理之at、batch](chapter_04/day16.md)
-		12. []()
+		12. [例行任务管理之cron](chapter_04/day17.md)
+		13. [不同来源的例行任务](chapter_04/day17.md)
+		14. 
 	3. 日志管理
 6. 文件系统
 7. 三剑客
