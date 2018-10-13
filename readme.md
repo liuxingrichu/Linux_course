@@ -62,7 +62,12 @@
 		11. [例行任务管理之at、batch](chapter_04/day16.md)
 		12. [例行任务管理之cron](chapter_04/day17.md)
 		13. [不同来源的例行任务](chapter_04/day17.md)
-		14. 
+		14. [uname命令](chapter_04/day18.md)
+		15. [free命令](chapter_04/day19.md)
+		16. [init命令](chapter_04/day20.md)
+		17. [系统或硬件时间](chapter_04/day21.md)
+		18. [其他命令:修改主机名、修改运行级别](chapter_04/day22.md)
+		19. [进程管理（下）之练习](chapter_04/day23.md)
 	3. 日志管理
 6. 文件系统
 7. 三剑客
@@ -73,7 +78,7 @@
 	1. [镜像挂卸载、rpm安装、配置yum本地源](chapter_06/day01.md)
 	2. [程序编译与运行](chapter_06/day02.md)
 	3. [宿主机和客户端文件输出](chapter_06/day03.md)
-14. shell编程
+16. shell编程
 	1. [脚本调试](chapter_08/day08.md)
 15. 服务器配置
 	1. [nginx服务器](chapter_09/day01.md)

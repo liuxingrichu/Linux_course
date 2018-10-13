@@ -1,0 +1,27 @@
+### 其他命令:修改主机名、修改运行级别 ###
+- 显示或设置当前系统主机名
+	- 查看主机名
+		- hostname
+	- 临时修改主机名（即时生效，但系统重启后将失效）
+		- hostname <新主机名>
+		- echo <新主机名> > /proc/sys/kernel/hostname
+	- 永久修改主机名
+		- hostnamectl set-hostname <新主机名>（立即生效，命令提示符需要重启后生效）
+		- 打开/etc/hostname文件，书写新主机名，保存退出，重启后生效。
+- last：列出目前与过去登录系统的用户信息
+- /proc目录：系统信息目录
+- 系统日志：
+	- /var/log/messages
+	-  /var/log/secure
+- man :显示参考手册，提供联机帮助
+- tzselect: 设置时区
+- cal: 显示某年某月的日历，默认显示当前月的日历
+- pwd：显示当前所在目录的绝对路径
+- reboot：重新开机
+- shutdown：系统关机或重启
+- halt：关闭系统
+- runlevel：查看当前系统运行级别
+	- 输出结果的两个数值，分别表示最初的运行模式和现在的运行模式。
+	- The ‘N’ stands for none, meaning there has been no run level change since powering up.
+	- 配置默认运行等级，方法可以查看文件/etc/inittab。配置完成后，重启生效。
+- logout：注销用户
