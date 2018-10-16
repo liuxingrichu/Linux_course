@@ -76,6 +76,7 @@
 		3. [磁盘分区](chapter_05/day003.md)
 		4. [磁盘格式化](chapter_05/day004.md)
 		5. [磁盘管理（上）之练习题](chapter_05/day005.md)
+		6. [blk_update_request](chapter_05/day004.md)
 	2. 文件系统
 	3. 三剑客
 9. 网络配置
