@@ -13,3 +13,5 @@
 11. 如何查询at命令下发的相关进程是什么？
 12. ntp实现网络时间同步异常。
 13. 文件系统从ext2文件系统切换到xfs或btrfs系统需要强制，而从xfs系统切换到ext2/3/4，却不需要强制？
+14. umount /dev/cdrom/提示“umount: /dev/cdrom: not mounted”，而umount /dev/sdb1没有任何提示？
+

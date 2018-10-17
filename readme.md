@@ -77,6 +77,8 @@
 		4. [磁盘格式化](chapter_05/day004.md)
 		5. [磁盘管理（上）之练习题](chapter_05/day005.md)
 		6. [blk_update_request](chapter_05/day004.md)
+		7. [文件系统与内存](chapter_05/day006.md)
+		8. [磁盘挂卸载](chapter_05/day007.md)
 	2. 文件系统
 	3. 三剑客
 9. 网络配置
