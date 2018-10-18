@@ -13,5 +13,7 @@
 11. 如何查询at命令下发的相关进程是什么？
 12. ntp实现网络时间同步异常。
 13. 文件系统从ext2文件系统切换到xfs或btrfs系统需要强制，而从xfs系统切换到ext2/3/4，却不需要强制？
-14. umount /dev/cdrom/提示“umount: /dev/cdrom: not mounted”，而umount /dev/sdb1没有任何提示？
+14. 命令行终端提示“blk_update_request: I/O error, dev fd0, sector 0”错误。
+15. 如何区分硬链接和软链接，区分的必要性，两者的主要用途？
+
 
