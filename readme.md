@@ -81,6 +81,7 @@
 		8. [磁盘挂卸载](chapter_05/day007.md)
 		9. [开机启动挂载](chapter_05/day008.md)
 		10. [dd命令](chapter_05/day009.md)
+		11. [磁盘管理（下）之练习题](chapter_05/day010.md)
 	2. 文件系统
 	3. 三剑客
 9. 网络配置
