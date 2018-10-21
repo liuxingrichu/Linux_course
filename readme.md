@@ -82,7 +82,8 @@
 		9. [开机启动挂载](chapter_05/day008.md)
 		10. [dd命令](chapter_05/day009.md)
 		11. [磁盘管理（下）之练习题](chapter_05/day010.md)
-	2. 文件系统
+	2. 文件管理
+		1. 
 	3. 三剑客
 9. 网络配置
 10. 路由和防火墙
@@ -90,6 +91,9 @@
 	1. [镜像挂卸载、rpm安装、配置yum本地源](chapter_06/day01.md)
 	2. [程序编译与运行](chapter_06/day02.md)
 	3. [宿主机和客户端文件输出](chapter_06/day03.md)
+	4. [yum常用命令](chapter_06/day04.md)
+	5. [rpm常用命令](chapter_06/day04.md)
+	6. [maria数据库](chapter_06/day05.md)
 16. shell编程
 	1. [脚本调试](chapter_08/day08.md)
 15. 服务器配置
