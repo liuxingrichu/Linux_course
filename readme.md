@@ -83,7 +83,12 @@
 		10. [dd命令](chapter_05/day009.md)
 		11. [磁盘管理（下）之练习题](chapter_05/day010.md)
 	2. 文件管理
-		1. 
+		1. [目录和文件](chapter_05/day011.md)
+		2. [绝对路径和相对路径](chapter_05/day011.md)
+		3. [目录结构](chapter_05/day012.md)
+		4. [目录的常用命令1](chapter_05/day013.md)
+		5. [文件的常用命令1](chapter_05/day013.md)
+		6. [文件管理（A）之练习题](chapter_05/day014.md)
 	3. 三剑客
 9. 网络配置
 10. 路由和防火墙
