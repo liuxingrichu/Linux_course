@@ -15,5 +15,11 @@
 13. 文件系统从ext2文件系统切换到xfs或btrfs系统需要强制，而从xfs系统切换到ext2/3/4，却不需要强制？
 14. 命令行终端提示“blk_update_request: I/O error, dev fd0, sector 0”错误。
 15. 如何区分硬链接和软链接，区分的必要性，两者的主要用途？
+16. 通过dd命令，例如dd if=/dev/sda of=/home/test/centos7_64_1019.iso，生成的iso文件大小超过15G，是为什么？
+17. 通过“dd if=/dev/sda of=/dev/sda”，磁盘可以正常使用？但“dd if=tmp.txt of=test.txt”命令，其文件内容没有了？
+18. kill强杀进程1、2、3等特殊进程，无法杀死？
+19. 通过ifconfig手动配置，Linux与Windows系统无法正常通信？
+
+
 
 
