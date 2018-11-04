@@ -98,7 +98,10 @@
 		13. [文件和目录的排序：sort](chapter_05/day021.md)
 		14. [文件的链接: ln](chapter_05/day022.md)
 		15. [字符处理与链接之练习](chapter_05/day023.md)
-		16. 
+		16. [查看文件权限：ls -l](chapter_05/day024.md)
+		17. [修改文件权限：chmod](chapter_05/day025.md)
+		18. [修改文件归属：chown chgrp](chapter_05/day026.md)
+		19. 
 	3. 三剑客
 9. 网络配置
 10. 路由和防火墙
