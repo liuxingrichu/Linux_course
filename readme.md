@@ -101,7 +101,9 @@
 		16. [查看文件权限：ls -l](chapter_05/day024.md)
 		17. [修改文件权限：chmod](chapter_05/day025.md)
 		18. [修改文件归属：chown chgrp](chapter_05/day026.md)
-		19. 
+		19. [默认权限：umask](chapter_05/day027.md)
+		20. [文件权限之练习题](chapter_05/day028.md)
+		21. 
 	3. 三剑客
 9. 网络配置
 10. 路由和防火墙
