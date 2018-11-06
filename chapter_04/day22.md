@@ -1,4 +1,4 @@
-### 其他命令:修改主机名、修改运行级别 ###
+### 其他命令:修改主机名、修改运行级别: hostname last man tzselect cal pwd reboot shutdown halt runlevel logout ###
 - 显示或设置当前系统主机名
 	- 查看主机名
 		- hostname
