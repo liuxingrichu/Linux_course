@@ -103,7 +103,8 @@
 		18. [修改文件归属：chown chgrp](chapter_05/day026.md)
 		19. [默认权限：umask](chapter_05/day027.md)
 		20. [文件权限之练习题](chapter_05/day028.md)
-		21. 
+		21. [文件压缩与解压缩：gzip gunzip bzip2 bunzip2](chapter_05/day029.md)
+		22. 
 	3. 三剑客
 9. 网络配置
 10. 路由和防火墙
