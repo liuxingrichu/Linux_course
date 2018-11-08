@@ -35,6 +35,8 @@
 6. 测试
 	1. 关闭防火墙：# systemctl stop firewalld.service
 	2. 客户端访问：http://10.103.79.7/
+	3. 配置个人主页
+		1. 将自己的index.html文件替换到/usr/local/nginx/html目录下的index.html。
 
 #### 场景1 ####
 问题现象：在centos 7下启动nginx出现Failed to start nginx.service:unit not found
