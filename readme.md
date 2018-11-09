@@ -105,8 +105,10 @@
 		20. [文件权限之练习题](chapter_05/day028.md)
 		21. [文件压缩与解压缩：gzip gunzip bzip2 bunzip2](chapter_05/day029.md)
 		22. [查看压缩文件：zcat zless zmore bzcat bzless](chapter_05/day030.md)
-		23. 
+		23. [打包命令：tar](chapter_05/day031.md)
+		24. [文件压缩与解压缩之练习题](chapter_05/day032.md)
 	3. 三剑客
+		1. []()
 9. 网络配置
 10. 路由和防火墙
 13. 软件包管理
