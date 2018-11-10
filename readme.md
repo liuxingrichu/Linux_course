@@ -108,7 +108,8 @@
 		23. [打包命令：tar](chapter_05/day031.md)
 		24. [文件压缩与解压缩之练习题](chapter_05/day032.md)
 	3. 三剑客
-		1. []()
+		1. [三剑客之grep：grep .bashrc source](chapter_05/day033.md)
+		2. []()
 9. 网络配置
 10. 路由和防火墙
 13. 软件包管理
