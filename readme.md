@@ -12,10 +12,11 @@
 	4. [Linux系统启动流程2](chapter_02/day04.md)
 	5. [练习](chapter_02/day05.md)
 	6. [文件系统](chapter_02/day06.md)
-	7. [独立思考时间颗粒度](day07.md)
-	8. [询问问题参考模板](day07.md)
-	9. [VMware虚拟机加载镜像，无法正常查看和操作系统](day07.md)
-	10. [Linux系统安装流程](day08.md)
+	7. [独立思考时间颗粒度](chapter_02/day07.md)
+	8. [询问问题参考模板](chapter_02/day07.md)
+	9. [VMware虚拟机加载镜像，无法正常查看和操作系统](chapter_02/day07.md)
+	10. [虚拟机安装Linux系统黑屏](chapter_02/day07.md)
+	11. [Linux系统安装流程](chapter_02/day08.md)
 3. 系统用户接口和程序编辑器
 	1. 系统用户接口
 		1. [控制台和终端、shell](chapter_03/day01.md)
@@ -114,7 +115,11 @@
 		4. [三剑客之练习题](chapter_05/day036.md)
 6. 软件管理
 	1. [rpm包管理](chapter_06/day001.md)
-	2. 
+	2. [rpm包管理之练习题](chapter_06/day002.md)
+	3. [yum包管理的基本原理](chapter_06/day003.md)
+	4. [yum包管理的基本使用](chapter_06/day004.md)
+	5. [基于ISO镜像构建yum本地源](chapter_06/day005.md)
+	6. [yum包管理之练习题](chapter_06/day006.md)
 	3. 
 	4. [中文显示、输入]()
 	1. [rpm]()
