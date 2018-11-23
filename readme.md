@@ -120,6 +120,7 @@
 	4. [yum包管理的基本使用](chapter_06/day004.md)
 	5. [基于ISO镜像构建yum本地源](chapter_06/day005.md)
 	6. [yum包管理之练习题](chapter_06/day006.md)
+	7. [基于HTTP构建yum网络源](chapter_06/day007.md)
 	3. 
 	4. [中文显示、输入]()
 	1. [rpm]()
