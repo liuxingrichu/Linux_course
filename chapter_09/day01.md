@@ -30,7 +30,7 @@
 	5. 服务状态：service nginx status
 	6. 文件测试：service nginx configtest
 5. 查询
-	1. # netstat -antp
+	1. netstat -antp
 
 6. 测试
 	1. 关闭防火墙：# systemctl stop firewalld.service
