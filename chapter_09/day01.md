@@ -3,24 +3,42 @@
 2. 源码包下载
 	1. 登陆http://nginx.org/en/download.html
 	2. 下载nginx-1.12.2.tar.gz
-3. Linux系统安装
+	3. Linux系统安装
+3. Nginx源码安装
 
 		# tar -zxvf nginx-1.12.2.tar.gz
 		# cd nginx-1.12.2
-		# ./configure --prefix=/usr/local/nginx
 		# yum -y install gcc gcc-c++ autoconf automake make
-		# yum install pcre
-		# yum install pcre-devel
-		# yum install -y zlib
-		# yum install -y zlib-devel
+		# yum install pcre pcre-devel
+		# yum install -y zlib zlib-devel
 		# ./configure --prefix=/usr/local/nginx
-		# make && make install
+		# make 
+		# make install
 		# cd /usr/local/nginx/
 
-		conf -----配置文件
-		html -----网页文件
-		logs -----日志文件
-		sbin -----主要二进制程序
+			conf -----配置文件
+			html -----网页文件
+			logs -----日志文件
+			sbin -----主要二进制程序
+
+4. 配置Nginx的yum安装源（官网提供）(推荐)
+	1. 网址：http://nginx.org/en/linux_packages.html#stable
+	2. 配置内容如下：
+
+			cd /etc/yum.repos.d/
+			vim nginx.repo
+				[nginx]
+				name=nginx repo
+				baseurl=http://nginx.org/packages/centos/7/$basearch/
+				gpgcheck=0
+				enabled=1
+	3. 安装
+		1. yum clean all
+		2. yum install nginx
+	4. 查找日志路径和html目录
+		1. find / -name nginx
+		2. 日志目录：/var/log/nginx
+		3. html目录：/usr/share/nginx
 
 4. 服务启动
 	1. 启动服务：service nginx start
@@ -30,7 +48,7 @@
 	5. 服务状态：service nginx status
 	6. 文件测试：service nginx configtest
 5. 查询
-	1. netstat -antp
+	1. netstat -antp | grep 80
 
 6. 测试
 	1. 关闭防火墙：# systemctl stop firewalld.service

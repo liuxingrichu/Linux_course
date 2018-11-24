@@ -121,6 +121,7 @@
 	5. [基于ISO镜像构建yum本地源](chapter_06/day005.md)
 	6. [yum包管理之练习题](chapter_06/day006.md)
 	7. [基于HTTP构建yum网络源](chapter_06/day007.md)
+	8. [nginx]()
 	3. 
 	4. [中文显示、输入]()
 	1. [rpm]()
@@ -144,6 +145,7 @@
 	1. [脚本调试](chapter_08/day08.md)
 15. 服务器配置
 	1. [nginx服务器](chapter_09/day01.md)
+	2. [手动配置nginx的脚步](chapter_09/nginx)
 	2. [apache服务器](chapter_09/day02.md)
 	3. [DNS服务器](chapter_09/day03.md)
 	4. [FTP服务器](chapter_09/day04.md)
