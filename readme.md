@@ -121,7 +121,8 @@
 	5. [基于ISO镜像构建yum本地源](chapter_06/day005.md)
 	6. [yum包管理之练习题](chapter_06/day006.md)
 	7. [基于HTTP构建yum网络源](chapter_06/day007.md)
-	8. [nginx]()
+	8. [C编译和运行](chapter_06/day008.md)
+	9. [Java编译和运行](chapter_06/day009.md)
 	3. 
 	4. [中文显示、输入]()
 	1. [rpm]()

@@ -3,7 +3,7 @@
 2. 源码包下载
 	1. 登陆http://nginx.org/en/download.html
 	2. 下载nginx-1.12.2.tar.gz
-	3. Linux系统安装
+	3. Linux下载：wget http://nginx.org/download/nginx-1.14.1.tar.gz
 3. Nginx源码安装
 
 		# tar -zxvf nginx-1.12.2.tar.gz
