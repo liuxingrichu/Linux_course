@@ -145,8 +145,8 @@
 16. shell编程
 	1. [脚本调试](chapter_08/day08.md)
 15. 服务器配置
-	1. [nginx服务器](chapter_09/day01.md)
-	2. [手动配置nginx的脚步](chapter_09/nginx)
+	1. [nginx服务器之安装](chapter_09/day001.md)
+	2. [nginx基本使用](chapter_09/day002.md)
 	2. [apache服务器](chapter_09/day02.md)
 	3. [DNS服务器](chapter_09/day03.md)
 	4. [FTP服务器](chapter_09/day04.md)
