@@ -113,7 +113,7 @@
 		2. [三剑客之sed：sed](chapter_05/day034.md)
 		3. [三剑客之awk：awk](chapter_05/day035.md)
 		4. [三剑客之练习题](chapter_05/day036.md)
-6. 软件管理
+6. 软件包管理
 	1. [rpm包管理](chapter_06/day001.md)
 	2. [rpm包管理之练习题](chapter_06/day002.md)
 	3. [yum包管理的基本原理](chapter_06/day003.md)
@@ -132,7 +132,12 @@
 	4. [源码安装: nginx]()
 	5. [数据库安装: maria]()
 	6. [程序编译与运行]()
-	7. 
+
+7. 网络管理
+	1. [常用命令：ping ifconfig ifup ifdown route netstat traceroute wget chkconfig](chapter_07/day01.md)
+	2. [网络配置]()
+	3. [网络安全: SELinux 防火墙 NAT]()
+	4. [排除网络故障]()
 9. 网络配置
 10. 路由和防火墙
 13. 软件包管理

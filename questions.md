@@ -26,5 +26,14 @@
 	2. ll /tmp或ll /tmp/查看的内容
 	3. ll -d /tmp或ll /tmp/
 
+23. 192.168.1.106/24可以向172.18.8.109传输文件（Linux系统），而Windows系统之间不可以访问共享。
 
-
+24. https访问Apache服务器，使用443端口
+25. 域名方式访问www服务器
+26. 防火墙规则临时配置及永久配置
+	1. firewall
+	2. iptables
+27. ftp方式配置yum源
+28. nfs测试是否可以配置yum源
+29. nginx配置yum源
+30. SELinux规则
