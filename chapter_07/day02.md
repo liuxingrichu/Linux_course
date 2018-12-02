@@ -24,7 +24,6 @@
 	vim /etc/sysconfig/network-scripts/ifcfg-ens33
 	
 		BOOTPROTO="dhcp"
-		NAME="ens33"
 		DEVICE="ens33"
 		ONBOOT="yes"
 
@@ -33,7 +32,6 @@
 	vim /etc/sysconfig/network-scripts/ifcfg-ens33
 	
 		BOOTPROTO="static"
-		NAME="ens33"
 		DEVICE="ens33"
 		ONBOOT="yes"
 		IPADDR="192.168.1.108"			//IP
@@ -41,13 +39,12 @@
 		GATEWAY="192.168.1.1"			//默认路由
 	
 		或者
-		BOOTPROTO="none"
-		NAME="ens33"
-		DEVICE="ens33"
-		ONBOOT="yes"
-		IPADDR="192.168.1.108"
-		NETMASK="255.255.255.0"
-		GATEWAY="192.168.1.1"
+		BOOTPROTO=none
+		DEVICE=ens33
+		ONBOOT=yes
+		IPADDR=192.168.1.108
+		NETMASK=255.255.255.0
+		GATEWAY=192.168.1.1
 
 网络重启
 
