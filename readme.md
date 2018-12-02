@@ -135,7 +135,7 @@
 
 7. 网络管理
 	1. [常用命令：ping ifconfig ifup ifdown route netstat traceroute wget chkconfig](chapter_07/day01.md)
-	2. [网络配置]()
+	2. [网络配置：dhcp和static](chapter_07/day02.md)
 	3. [网络安全: SELinux 防火墙 NAT]()
 	4. [排除网络故障]()
 9. 网络配置
