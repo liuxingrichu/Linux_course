@@ -14,6 +14,12 @@
 
 2. 需求：检测实验室环境下，动态IP使用情况，同时分类存放，并汇总输出。
 
+		192.168.1.0/24		网段IP，子网号
+		192.168.1.255/24	广播IP
+		192.168.1.1(254)/24	习惯上配置网关,仅用一个，具体用了哪个，具体情况具体分析
+
+		综述所上，可用动态IP为192.168.1.2-254/24
+
 		#!/bin/bash
 		# test IP status
 		
@@ -24,6 +30,7 @@
 		for i in `seq 2 254`
 		do
 		    ping -c 3 $IP.$i &>/dev/null 
+		#	ping -c 3 $IP.$i > /dev/null 2>&1
 			if [ $? -eq 0 ]; then
 				let "used_num+=1"
 				echo "$IP.$i" >> used_IP_list.log
@@ -34,8 +41,6 @@
 		done
 		echo "used IP number: $used_num"
 		echo "unused IP number: $unused_num"
-
-
 
 		测试结果：
 			time sh -x network_check.sh
