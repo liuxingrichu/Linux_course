@@ -54,3 +54,29 @@ while循环
 			let "i+=1"
 		done
 		echo "sum=$sum"
+
+
+until循环
+
+	until expression
+	do
+		command
+	done
+
+select循环
+
+	select MENU in LIST
+	do
+		command
+	done
+
+break语句
+
+	用于终止当前整个循环体。
+
+continue语句
+
+	用于结束当前循环，转而进入下一次循环。
+
+
+嵌套循环：OK

@@ -151,11 +151,13 @@
 	2. [HelloWorld脚本程序：注释 运行 环境配置文件](chapter_08/day02.md)
 	3. [变量](chapter_08/day03.md)
 	4. [引用符](chapter_08/day04.md)
-	3. [测试]()
-	4. [判断语句]()
-	5. [循环语句]()
-	6. [函数]()
-	7. [调试]()
+	5. [运算符](chapter_08/day05.md)
+	6. [测试](chapter_08/day06.md)
+	7. [判断](chapter_08/day07.md)
+	8. [循环](chapter_08/day08.md)
+	9. [函数](chapter_08/day09.md)
+	10. [调试](chapter_08/day10.md)
+	11. [网络监测](chapter_08/day11.md)
 
 
 10. 路由
