@@ -158,7 +158,16 @@
 	9. [函数](chapter_08/day09.md)
 	10. [调试](chapter_08/day10.md)
 	11. [网络监测](chapter_08/day11.md)
-
+	12. [虚拟机设置之网络连接](chapter_08/day12.md)
+9. 服务器
+	1. [nginx服务器之安装](chapter_09/day001.md)
+	2. [nginx基本使用](chapter_09/day002.md)
+	3. [apache服务器](chapter_09/day003.md)
+	4. [DHCP服务器](chapter_09/day004.md)
+	5. [Samba服务器](chapter_09/day005.md)
+	6. [NFS服务器](chapter_09/day006.md)
+	7. [SSH服务器](chapter_09/day007.md)
+	8. []()
 
 10. 路由
 13. 软件包管理
@@ -168,8 +177,6 @@
 	4. [yum常用命令](chapter_06/day04.md)
 	5. [rpm常用命令](chapter_06/day04.md)
 	6. [maria数据库](chapter_06/day05.md)
-16. shell编程
-	1. [脚本调试](chapter_08/day08.md)
 15. 服务器配置
 	1. [nginx服务器之安装](chapter_09/day001.md)
 	2. [nginx基本使用](chapter_09/day002.md)
