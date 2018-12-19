@@ -167,7 +167,9 @@
 	5. [Samba服务器](chapter_09/day005.md)
 	6. [NFS服务器](chapter_09/day006.md)
 	7. [SSH服务器](chapter_09/day007.md)
-	8. []()
+	8. [DNS服务器](chapter_09/day008.md)
+	9. [FTP服务器](chapter_09/day009.md)
+	10. [搭建ftp的yum源](chapter_09/day009.md)
 
 10. 路由
 13. 软件包管理
