@@ -43,6 +43,7 @@
 		2. [head命令](chapter_04/day01.md)
 		3. [tail命令](chapter_04/day01.md)
 		4. [创建用户的家目录内容来源](chapter_04/day01.md)
+		5. [adduser和useradd的区别](chapter_04/day01.md)
 		5. [用户管理之课堂练习](chapter_04/day02.md)
 		2. [组管理](chapter_04/day03.md)
 		3. [身份切换](chapter_04/day04.md)
