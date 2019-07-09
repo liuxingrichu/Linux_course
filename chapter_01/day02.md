@@ -27,7 +27,10 @@
 	3. Ubuntu官网 https://www.ubuntu.com/download
 3. 练习平台
 	1. https://www.tutorialspoint.com/index.htm
-	2. 点CODING GROUND
+		1. 点击CODING GROUND
+	2. 实验楼：Linux基本入门（新版）
+4. 在线图书
+	1. [Linux基础](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html)
 
 ### 常见问题 ###
 1. 学历低

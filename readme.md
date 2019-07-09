@@ -5,6 +5,7 @@
 	3. [Linux学习资源](chapter_01/day02.md)
 	4. [Linux学习习惯](chapter_01/day02.md)
 	5. [练习](chapter_01/day03.md)
+	6. [Win10系统安装、使用Ubuntu系统](chapter_01/day04.md)
 2. 系统安装与基本配置
 	1. [虚拟化、虚拟机软件介绍](chapter_02/day01.md)
 	2. [硬盘、分区、硬盘分区](chapter_02/day02.md)
