@@ -67,6 +67,21 @@
 	- # history  -c   （立即清空history当前所有历史命令的记录）
 	- ![n]       执行历史命令
 	- ！！     执行上一条命令
+	- 用户级清除历史记录
+		
+			cd
+			echo > .bash_history
+			history -cw
+	
+	- 获取帮助信息
+		- help history
+	
+	- 用户级自定制history信息显示格式
+	
+			cd 
+			vim /root/.bashrc
+				export HISTTIMEFORMAT="%F %T `whoami` "
+
 - 命令：more
 	- 作用：以一页一页的显示文件内容，方便使用者逐页阅读
 	- 缺点：没有办法向前面翻， 只能往后面看

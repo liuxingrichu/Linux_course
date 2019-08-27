@@ -25,7 +25,7 @@
 主要是因为：
 vimrc是vim起动时解释的，而不是由shell来解释。用shell来source它肯定不行
 
-解决办法：其实根本不用source等任何操作，使用vi时候自动读取配置，如果还是没有生效，那么久拷贝一个vimrc到你的目录（HOME或者WORK目录即可）下，命名为 .vimrc即可 
+解决办法：其实根本不用source等任何操作，使用vi时候自动读取配置，如果还是没有生效，那么就拷贝一个vimrc到你的目录（HOME或者WORK目录即可）下，命名为 .vimrc即可 
 
 
 
@@ -36,6 +36,8 @@ vimrc是vim起动时解释的，而不是由shell来解释。用shell来source�
 2. 关闭显示行号
 	1. set nonu
 	2. set nonumber
+3. 查看vim教程
+	- vimtutor
 
 - 文件创建或打开
 	- vim files
