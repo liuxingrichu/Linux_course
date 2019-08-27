@@ -1,4 +1,7 @@
 ### 目录 ###
+0. 环境
+	1. [Linux系统安装流程](basic_system/day01.md)
+	2. [最小化Linux系统配置](basic_system/day02.md)
 1. Linux概述
 	1. [Linux系统介绍](chapter_01/day01.md)
 	2. [Linux发展前景](chapter_01/day02.md)

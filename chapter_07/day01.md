@@ -51,7 +51,8 @@
 				route add default gw 192.168.1.1
 
 6. traceroute
-	1. 语法：traceroute 域名或IP
+	1. 环境：yum install traceroute
+	2. 语法：traceroute 域名或IP
 	2. 功能：用于显示从本机到目标机的数据包所经过的路由。
 	3. 举例：
 		1. traceroute wwww.baidu.com
@@ -72,7 +73,8 @@
 				netstat -r
 
 8. wget
-	1. 语法：wget [参数] [目标软件地址]
+	1. 环境：yum install wget
+	2. 语法：wget [参数] [目标软件地址]
 	2. 功能：类似Windows中的下载工具，用于下载某个文件。
 
 			参数：
