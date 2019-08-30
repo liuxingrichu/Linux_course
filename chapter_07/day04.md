@@ -5,6 +5,15 @@
 
 防火墙是系统的第一道防线，其作用是防止非法用户的进入。
 
+查询防火墙状态
+
+	systemctl status firewalld.service
+	firewall-cmd --state
+
+重启防火墙操作
+
+	systemctl restart firewalld.service
+	service firewalld restart
 
 通过服务名称放行Apache服务
 
@@ -45,3 +54,5 @@
 	
 	永久从防火墙的public区移除Apache放行，重启读取配置生效
 	firewall-cmd --permanent --remove-port=80/tcp --zone=public
+
+配置完成防火墙规则后，需要重启防火墙服务，或重新加载防火墙配置，或重启服务器。

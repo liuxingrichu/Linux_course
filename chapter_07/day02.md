@@ -52,3 +52,18 @@
 	systemctl restart network
 	systemctl restart network.service
 	/etc/init.d/network restart
+
+互联网网络测试
+
+	ping www.baidu.com
+	ping 8.8.8.8
+
+- 校园网特殊情况说明
+	- 校园网中，一般需要认证通过的用户，才能连接互联网。
+	- 实验室和办公室zls无线网络，通过特殊设置，无需认证上网。
+	- 2.4G和5.8G无线网络，需要认证上网。Linux系统，也是一个设备，同样需要认证，才能上网。
+	- 出现以下现象，原因为上面的阐述：
+		- 连接zls无线网络，Linux获取到IP, 192.168.1.x/24, 能通过互联网网络测试。
+		- 在实验室有线网络情况下，Linux获取到IP, 172.18.8.x/24, 能通过互联网网络测试。
+		- 在2.4G或5.8G无线网络下，Linux获取到IP，不能通过互联网网络测试。
+		- 在连接手机无线热点情况下，Linux获取到IP，能通过互联网网络测试。
