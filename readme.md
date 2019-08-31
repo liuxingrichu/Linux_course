@@ -175,6 +175,7 @@
 	8. [DNS服务器](chapter_09/day008.md)
 	9. [FTP服务器](chapter_09/day009.md)
 	10. [搭建ftp的yum源](chapter_09/day009.md)
+	11. [CentOS7通过RDO部署单节点OpenStack](chapter_09/day010.md)
 
 10. 路由
 13. 软件包管理
