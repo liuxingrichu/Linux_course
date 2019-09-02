@@ -51,7 +51,26 @@
 			
 			例如：
 				$ cat < info.txt
+			多用于脚本数据输入，从默认的键盘输入，修改为文件。
+	
+	5. 标准输入重定向： <<
 		
+			通过cat>file来创建文件，并将内容输入文件，输入结束后，按下快捷键“Ctrl+d”结束输入。
+			[fsp@localhost ~]$ cat > file
+			hello everyone
+			this is a book
+			[fsp@localhost ~]$ cat file
+			hello everyone
+			this is a book
+			[fsp@localhost ~]$
+			使用<<让系统将一次键盘的全部输入，先送入虚拟机的“当前文档”，然后一次性输入。可以选择任意符号作为终结标识符。
+			[fsp@localhost ~]$ cat > file << quit
+			> hello
+			> quit
+			[fsp@localhost ~]$ cat file
+			hello
+			[fsp@localhost ~]$
+
 
 ### 管道 ###
 1. 管道也是一种重要的I/O重定向方法。
