@@ -151,6 +151,7 @@
 	9. [广域网](chapter_07/day09.md)
 	10. [互联网](chapter_07/day10.md)
 	11. [万维网](chapter_07/day11.md)
+	12. [VMware网络适配器配置解析](chapter_07/day12.md)
 	4. [排除网络故障]()
 8. 自动化
 	1. [shell简介](chapter_08/day01.md)
