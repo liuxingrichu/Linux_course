@@ -37,9 +37,9 @@ Linux中的所有命令，都是采用系统时钟。
 			- # rdate -s time-b.nist.gov
 		- 使用date命令设置
 	- 指定显示日期格式：使用“+”开头的字符串指定其格式
-		- # date "+%Y-%m-%d %H:%M:%S"
-		- # date "+%Y-%m-%d %H:%M:%S" -d "-3 year"
-		- # date "+%Y-%m-%d %H:%M:%S" -d "+3 month"
-		- # date "+%Y-%m-%d %H:%M:%S" -d "+10 day"
+		- $ date "+%Y-%m-%d %H:%M:%S"
+		- $ date "+%Y-%m-%d %H:%M:%S" -d "-3 year"
+		- $ date "+%Y-%m-%d %H:%M:%S" -d "+3 month"
+		- $ date "+%Y-%m-%d %H:%M:%S" -d "+10 day"
 
 
