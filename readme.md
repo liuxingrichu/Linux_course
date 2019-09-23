@@ -179,6 +179,7 @@
 	10. [搭建ftp的yum源](chapter_09/day009.md)
 	11. [CentOS7通过RDO部署单节点OpenStack](chapter_09/day010.md)
 	12. [CentOS7首次部署Docker容器](chapter_09/day011.md)
+	13. [Ubuntu系统配置ssh服务并允许root登陆](chapter_09/day012.md)
 
 10. 路由
 13. 软件包管理
