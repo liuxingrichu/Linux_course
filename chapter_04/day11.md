@@ -12,11 +12,19 @@
 			ps -A | wc -l
 			ps -e | wc -l
 			ps -ef | wc -l
+			ps -elf | wc -l
 			ps -aux | wc -l
 			ps aux | wc -l
 		
 			ps -e > ps.txt
 			vim ps.txt
+			查看文件行号
+
+			top命令输出信息中，查看总进程数。
+
+			说明：
+				1. 文件查看行数方式，比top里面的进程数多一个，其原因为第一行为列显示信息。
+				2. wc统计行数，比top里面的进程数多两个，其原因为第一行为列显示信息，另外一个为wc命令启动了一个进程。
 		
 		2. 查看系统所有进程的user、uid、gid、pid、ppid、ni、cmd,以uid排序。
 
