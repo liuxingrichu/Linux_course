@@ -66,7 +66,7 @@
 		9. [前后台进程: jobs fg bg kill](chapter_04/day14.md)
 		10. [进程管理（中）之练习](chapter_04/day15.md)
 		11. [例行任务管理: at、batch](chapter_04/day16.md)
-		12. [例行任务管理: cron](chapter_04/day17.md)
+		12. [例行任务管理: cron、病毒](chapter_04/day17.md)
 		13. [不同来源的例行任务](chapter_04/day17.md)
 		14. [uname命令](chapter_04/day18.md)
 		15. [free命令](chapter_04/day19.md)
