@@ -78,7 +78,8 @@
 5. 磁盘和文件管理
 	1. 磁盘管理
 		1. [文件系统](chapter_05/day001.md)
-		2. [磁盘空间查询](chapter_05/day002.md)
+		2. [系统三大组建](chapter_05/day001.md)
+		3. [磁盘空间查询](chapter_05/day002.md)
 		3. [磁盘分区](chapter_05/day003.md)
 		4. [磁盘格式化](chapter_05/day004.md)
 		5. [磁盘管理（上）之练习题](chapter_05/day005.md)
