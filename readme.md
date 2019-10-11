@@ -39,7 +39,8 @@
 	2. 程序编辑器
 		1. [配置vim编辑器](chapter_03/day05.md)
 		2. [vim编辑器](chapter_03/day05.md)
-		3. [vim编辑器之多文件](chapter_03/day07.md)
+		3. [Vim: 警告: 输出不是到终端(屏幕)](chapter_03/day05.md)
+		4. [vim编辑器之多文件](chapter_03/day07.md)
 		4. [source /etc/vimrc报错](chapter_03/day05.md)
 4. 系统管理
 	1. 用户管理
@@ -87,6 +88,7 @@
 		7. [磁盘管理（上）之练习题](chapter_05/day005.md)
 		8. [文件系统与内存](chapter_05/day006.md)
 		8. [磁盘挂卸载](chapter_05/day007.md)
+		9. [光驱卸载失败](chapter_05/day007.md)
 		9. [开机启动挂载](chapter_05/day008.md)
 		10. [dd命令](chapter_05/day009.md)
 		11. [磁盘管理（下）之练习题](chapter_05/day010.md)
