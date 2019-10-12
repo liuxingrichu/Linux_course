@@ -34,8 +34,8 @@
 		9. [重定向](chapter_03/day03.md)
 		10. [管道](chapter_03/day03.md)
 		11. [KDE和GNOME桌面环境](chapter_03/day03.md)
-		12. [练习](day04.md)
-		13. [ll命令的total](day08.md)
+		12. [练习](chapter_03/day04.md)
+		13. [ll命令的total](chapter_03/day08.md)
 	2. 程序编辑器
 		1. [配置vim编辑器](chapter_03/day05.md)
 		2. [vim编辑器](chapter_03/day05.md)
@@ -79,6 +79,7 @@
 5. 磁盘和文件管理
 	1. 磁盘管理
 		1. [文件系统](chapter_05/day001.md)
+		2. [xfs_info查看xfs文件系统信息](chapter_05/day001.md)
 		2. [系统三大组建](chapter_05/day001.md)
 		3. [磁盘空间查询](chapter_05/day002.md)
 		3. [磁盘分区](chapter_05/day003.md)
