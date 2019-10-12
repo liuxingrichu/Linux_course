@@ -96,6 +96,7 @@
 		1. [目录和文件](chapter_05/day011.md)
 		2. [绝对路径和相对路径](chapter_05/day011.md)
 		3. [目录结构](chapter_05/day012.md)
+		4. [tree命令查看目录结构](chapter_05/day012.md)
 		4. [目录的常用命令: ls](chapter_05/day013.md)
 		5. [文件的常用命令: more less head tail cat wc file stat tac](chapter_05/day013.md)
 		6. [文件管理（A）之练习题](chapter_05/day014.md)
