@@ -9,6 +9,7 @@
 	4. [Linux学习习惯](chapter_01/day02.md)
 	5. [练习](chapter_01/day03.md)
 	6. [Win10系统安装、使用Ubuntu系统](chapter_01/day04.md)
+	7. [CentOS7镜像获取](chapter_01/day05.md)
 2. 系统安装与基本配置
 	1. [虚拟化、虚拟机软件介绍](chapter_02/day01.md)
 	2. [硬盘、分区、硬盘分区](chapter_02/day02.md)
@@ -79,8 +80,9 @@
 5. 磁盘和文件管理
 	1. 磁盘管理
 		1. [文件系统](chapter_05/day001.md)
-		2. [xfs_info查看xfs文件系统信息](chapter_05/day001.md)
 		2. [系统三大组建](chapter_05/day001.md)
+		3. [xfs_info查看xfs文件系统信息](chapter_05/day001.md)
+		3. [检查swap空间](chapter_05/day001.md)
 		3. [磁盘空间查询](chapter_05/day002.md)
 		3. [磁盘分区](chapter_05/day003.md)
 		4. [磁盘格式化](chapter_05/day004.md)
