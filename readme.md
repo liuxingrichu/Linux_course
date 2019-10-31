@@ -123,6 +123,7 @@
 		24. [文件压缩与解压缩之练习题](chapter_05/day032.md)
 	3. 三剑客
 		1. [三剑客之grep：grep .bashrc source](chapter_05/day033.md)
+		2. [grep命令匹配项颜色开启与关闭](chapter_05/day033.md)
 		2. [三剑客之sed：sed](chapter_05/day034.md)
 		3. [三剑客之awk：awk](chapter_05/day035.md)
 		4. [三剑客之练习题](chapter_05/day036.md)
