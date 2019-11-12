@@ -50,6 +50,11 @@
 				route -n
 				route add default gw 192.168.1.1
 
+	在dos系统，可以使用route print，显示IP路由表的完整内容。
+	
+	在dos系统，可以使用route print 10.*，显示IP路由表中以10.开头的路由。
+
+
 6. traceroute
 	1. 环境：yum install traceroute
 	2. 语法：traceroute 域名或IP
@@ -57,6 +62,11 @@
 	3. 举例：
 		1. traceroute wwww.baidu.com
 		2. traceroute 192.168.1.109
+
+	其显示结果：每次进行三组数据测试，星表示网络没响应，即网络超时。
+
+	在dos系统中，可以使用tracert命令实现网络路由跟踪。
+	![](assets/traceroute.png)
 
 7. netstat
 	1. 语法：netstat [参数]
@@ -81,8 +91,8 @@
 				-c	断点下载
 			
 			举例：
-				wget http://nginx.org/download/nginx-1.14.1.tar.gz
-				wget -c http://nginx.org/download/nginx-1.14.1.tar.gz
+				wget http://nginx.org/download/nginx-1.16.1.tar.gz
+				wget -c http://nginx.org/download/nginx-1.16.1.tar.gz
 
 9. chkconfig
 	1. 语法：chkconfig [参数] [服务名] [on|off]

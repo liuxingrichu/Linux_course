@@ -137,16 +137,7 @@
 	7. [基于HTTP构建yum网络源](chapter_06/day007.md)
 	8. [C编译和运行](chapter_06/day008.md)
 	9. [Java编译和运行](chapter_06/day009.md)
-	3. 
-	4. [中文显示、输入]()
-	1. [rpm]()
-	2. [yum]
-	3. [自建本地yum源]()
-	3. [自建网络yum源]()
-	4. [源码安装: nginx]()
-	5. [数据库安装: maria]()
-	6. [程序编译与运行]()
-
+	10. [数据库安装: maria]()
 7. 网络管理
 	1. [常用命令：ping ifconfig ifup ifdown route netstat traceroute wget chkconfig](chapter_07/day01.md)
 	2. [网络配置：dhcp和static](chapter_07/day02.md)
@@ -161,6 +152,9 @@
 	10. [互联网](chapter_07/day10.md)
 	11. [万维网](chapter_07/day11.md)
 	12. [VMware网络适配器配置解析](chapter_07/day12.md)
+	13. [网关](chapter_07/day13.md)
+	14. [广播地址](chapter_07/day13.md)
+	15. [双网卡](chapter_07/day14.md)
 	4. [排除网络故障]()
 8. 自动化
 	1. [shell简介](chapter_08/day01.md)
