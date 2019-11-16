@@ -137,7 +137,8 @@
 	7. [基于HTTP构建yum网络源](chapter_06/day007.md)
 	8. [C编译和运行](chapter_06/day008.md)
 	9. [Java编译和运行](chapter_06/day009.md)
-	10. [数据库安装: maria]()
+	10. [Mariadb数据库部署](chapter_06/day010.md)
+	11. [Mariadb数据库基本操作]()
 7. 网络管理
 	1. [常用命令：ping ifconfig ifup ifdown route netstat traceroute wget chkconfig](chapter_07/day01.md)
 	2. [网络配置：dhcp和static](chapter_07/day02.md)
@@ -155,6 +156,7 @@
 	13. [网关](chapter_07/day13.md)
 	14. [广播地址](chapter_07/day13.md)
 	15. [双网卡](chapter_07/day14.md)
+	16. [虚拟机设置之网络连接](chapter_07/day15.md)
 	4. [排除网络故障]()
 8. 自动化
 	1. [shell简介](chapter_08/day01.md)
@@ -167,8 +169,7 @@
 	8. [循环](chapter_08/day08.md)
 	9. [函数](chapter_08/day09.md)
 	10. [调试](chapter_08/day10.md)
-	11. [网络监测](chapter_08/day11.md)
-	12. [虚拟机设置之网络连接](chapter_08/day12.md)
+	11. [网络监测](chapter_08/day11.md)	
 9. 服务器
 	1. [nginx服务器之安装](chapter_09/day001.md)
 	2. [nginx基本使用](chapter_09/day002.md)
