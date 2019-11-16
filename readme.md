@@ -157,6 +157,7 @@
 	14. [广播地址](chapter_07/day13.md)
 	15. [双网卡](chapter_07/day14.md)
 	16. [虚拟机设置之网络连接](chapter_07/day15.md)
+	17. [网络配置之动态IP、静态IP的最小化配置 ](chapter_07/day16.md)
 	4. [排除网络故障]()
 8. 自动化
 	1. [shell简介](chapter_08/day01.md)
