@@ -3,6 +3,8 @@
 	1. 安装虚拟机，例如VMware
 	2. 安装Linux系统镜像
 	3. 计算机支持虚拟化
+		1. 查看虚拟化是否开启
+		![](assets/virtualization.png)
 	4. 开启VMware Authorization Service服务。
 2. 开启虚拟机
 3. 点击“创建新的虚拟机”，默认“典型”安装
