@@ -150,3 +150,5 @@ ls -ln可以查看UID和GID信息。
 ### adduser和useradd的区别 ###
 
 useradd只创建用户，创建完了用passwd <user_name>去设置新用户的密码。adduer会创建用户，创建目录，创建密码（提示你设置），做这一系列的操作。其实useradd、userdel这类操作更像是一种命令，执行完了就返回，而adduser更像是一种程序，需要你输入、确认等一系列操作。
+
+注：在CentOS7上，未区分出useradd和adduser的区别。

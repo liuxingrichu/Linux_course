@@ -28,3 +28,36 @@
 		4. 删除该用户。
 		
 		# userdel user1
+
+重复之美
+
+	现象描述：
+	
+		完成上述操作后，再进行用户user01用户添加时，提示一下信息：
+		
+			useradd: group user01 exists - if you want to add this user to that group, use -g.
+		
+		id查询，其未添加用户user01
+	
+	问题定位：
+	
+	
+		查询用户基本信息，未发现用户user01信息
+		
+			tail -n 3 /etc/passwd
+		
+		查询组基本信息，发现有组user01信息
+		
+			tail -n 3 /etc/group
+		
+		useradd命令，在添加用户的同时，创建了一个与用户同名的用户基本组，因为user01的基本组已存在，故导致无法使用"useradd user01"命令创建用户，得到上面的提示信息。
+	
+	解决方法：
+	
+		方法一：消除历史干扰
+		
+			groupdel user01
+		
+		方法二：按照信息提示，手动指定用户组
+	
+			useradd user01 -g user01
