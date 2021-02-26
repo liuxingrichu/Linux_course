@@ -53,10 +53,11 @@
 			3. 编写java应用程序(可以理解为APP通过socket方式建立了与C应用程序的通信)通过调用下层的C程序去与驱动程序建立通信。
 		6.  苹果的ios是基于UNIX的。
 		7.  安卓是基于linux的。
+		8.  Google于2017年宣布Kotlin成为Google IO的Android开发官方语言。建议进行Android开发的人员新人，可以先学习用Java开发，再学习用Kotlin开发。
 	4. 请举例阐述企业最常运用到的知识点。
 		1. Linux云计算网络管理
 		2. Linux云主机系统管理及服务配置
-		3. Linuxshell脚本自动化编程
+		3. Linux shell脚本自动化编程
 		4. 开源数据库MySQL DBA运维
 		5. 企业级自动化项目及公有云运维
 		6. 大型网站高并发架构运维

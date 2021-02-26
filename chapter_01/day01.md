@@ -43,7 +43,7 @@
 	3. 内核是系统的心脏，是运行程序和管理像磁盘和打印机等硬件设备的核心程序，它提供了一个在裸设备与应用程序间的抽象层。例如，程序本身不需要了解用户的主板芯片集或磁盘控制器的细节就能在高层次上读写磁盘。
 	4. [在线代码阅读](http://www.makelinux.net/kernel_map/)
 	5. 内核发展历史
-		1. 1991年10月5日，LinusTorvalds在新闻组comp.os.minix发布了大约有一万行代码的Linux v0.01版本。
+		1. 1991年10月5日，Linus Torvalds在新闻组comp.os.minix发布了大约有一万行代码的Linux v0.01版本。
 		2. 截止到2018年9月15日，Linux内核代码行数约2558万行，参与作者约1.9万人。
 
 4. 发行版本
@@ -76,7 +76,7 @@
 
 	2. CentOS       
 	
-	      社区企业操作系统（Community Enterprise Operating System,Centos）
+	      社区企业操作系统（Community Enterprise Operating System,CentOS）
 	
 	      来自于Red Hat Enterprise Linux依照开放源代码规定释出的源代码所编译而成。由于出自同样的源代码，因此有些要求高度稳定性的服务器以CentOS替代商业版的Red Hat Enterprise Linux使用。两者的不同，在于CentOS并不包含封闭源代码软件。
 	
@@ -90,17 +90,17 @@
 	
 	4. OpenSUSE  
 	
-	    德国著名的Linux系统，全球范围内有着不错的声誉及市场占有率，发行量在欧洲占第一位。。OpenSUSE对个人来说是完全免费的，包括使用和在线更新。OpenSUSE被评价为最华丽的Linux桌面发行版，甚至超越win7，但它的优势绝不仅仅局限于win7还要绚丽的用户交互界面，其性能也绝不亚于其他Linux桌面发行版！
+	    德国著名的Linux系统，全球范围内有着不错的声誉及市场占有率，发行量在欧洲占第一位。OpenSUSE对个人来说是完全免费的，包括使用和在线更新。OpenSUSE被评价为最华丽的Linux桌面发行版，甚至超越win7，但它的优势绝不仅仅局限于win7绚丽的用户交互界面，其性能也绝不亚于其他Linux桌面发行版！
 	
 	5. Debian       
 	
-	     Debian 系列，包括Debian和Ubuntu等。Debian是社区类Linux的典范，是迄今为止最遵循GNU规范的Linux系统。提供了接近十万种不同的开源软件支持，在国外用于很高的认可度和使用率。对于各类内核架构支持性良好，稳定性、安全性强更有免费的技术支持。
+	    Debian 系列，包括Debian和Ubuntu等。Debian是社区类Linux的典范，是迄今为止最遵循GNU规范的Linux系统。提供了接近十万种不同的开源软件支持，在国外用于很高的认可度和使用率。对于各类内核架构支持性良好，稳定性、安全性强更有免费的技术支持。
 	
-	    Debian最具特色的是apt-get / dpkg包管理方式，其实Redhat的YUM也是在模仿Debian的APT方式，但在二进制文件发行方式中，APT应该是最好的了。Debian的资料也很丰富，有很多支持的社区，有问题求教也有地方可去。
+	    Debian最具特色的是apt-get/dpkg包管理方式，其实Redhat的YUM也是在模仿Debian的APT方式，但在二进制文件发行方式中，APT应该是最好的。Debian的资料也很丰富，有很多支持的社区，有问题求教也有地方可去。
 	
 	6. Ubuntu      
 	
-		Ubuntu是一款基于Debian派生的操作系统（严格来说不能算一个独立的发行版本），对新款硬件具有极强的兼容能力。  特点是界面非常友好，容易上手，对硬件支持非常全面，是最适合做桌面系统的Linux发行版本，同时Ubuntu也可用于服务器领域。
+		Ubuntu是一款基于Debian派生的操作系统（严格来说不能算一个独立的发行版本），对新款硬件具有极强的兼容能力。 特点是界面非常友好，容易上手，对硬件支持非常全面，是最适合做桌面系统的Linux发行版本，同时Ubuntu也可用于服务器领域。
 		
 		Ubuntu的目标在于为一般用户提供一个最新的，同时又相对稳定的主要自由软件构建而成的操作系统。Ubuntu具有强大的社区力量，用户可以方便地从社区获取帮助。
 
